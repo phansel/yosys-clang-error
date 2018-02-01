@@ -1,0 +1,38 @@
+pi@rasbperrypi:~/yosys $ sudo make -j4
+[  0%] Building kernel/version_e97f10b1.o
+[  1%] Building kernel/register.o
+[ 11%] Building frontends/ilang/ilang_parser.tab.o
+[ 11%] Building frontends/ilang/ilang_lexer.o
+[ 13%] Building frontends/verilog/verilog_parser.tab.o
+[ 14%] Building frontends/verilog/verilog_lexer.o
+[ 20%] Building passes/sat/freduce.o
+[ 21%] Building passes/sat/eval.o
+[ 22%] Building passes/sat/expose.o
+[ 23%] Building passes/sat/assertpmux.o
+[ 23%] Building passes/sat/clk2fflogic.o
+[ 24%] Building passes/opt/opt.o
+[ 24%] Building passes/opt/opt_merge.o
+[ 25%] Building passes/opt/opt_muxtree.o
+[ 25%] Building passes/opt/opt_reduce.o
+clang: error: unable to execute command: Killed
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 3.8.1-24+rpi1 (tags/RELEASE_381/final)
+Target: armv6--linux-gnueabihf
+Thread model: posix
+InstalledDir: /usr/bin
+clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.
+[ 26%] Building passes/opt/opt_rmdff.o
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang: note: diagnostic msg: /tmp/eval-c49a8b.cpp
+clang: note: diagnostic msg: /tmp/eval-c49a8b.sh
+clang: note: diagnostic msg: 
+
+********************
+Makefile:414: recipe for target 'passes/sat/eval.o' failed
+make: *** [passes/sat/eval.o] Error 254
+make: *** Waiting for unfinished jobs....
+

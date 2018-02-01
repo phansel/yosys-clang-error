@@ -1,0 +1,28 @@
+clang version 3.8.1-24+rpi1 (tags/RELEASE_381/final)
+Target: armv6--linux-gnueabihf
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6.4
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8.5
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/5.4.1
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6.4
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7.3
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8.5
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9.3
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/5.4.1
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/6.3.0
+Selected GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+
